@@ -61,22 +61,22 @@ const NavBar = () => {
             <ul className='uppercase'>
 
               <Link href='/'>
-                <li className='py-3 text-sm'>Home</li>
+                <li className='py-3 text-sm hover:scale-105 ease-in duration-500'>Home</li>
               </Link>
               <Link href='/'>
-                <li className='py-3 text-sm'>about</li>
+                <li className='py-3 text-sm hover:scale-105 ease-in duration-500'>about</li>
               </Link>
               <Link href='/'>
-                <li className='py-3 text-sm'>skills</li>
+                <li className='py-3 text-sm hover:scale-105 ease-in duration-500'>skills</li>
               </Link>
               <Link href='/'>
-                <li className='py-3 text-sm'>projects</li>
+                <li className='py-3 text-sm hover:scale-105 ease-in duration-500'>projects</li>
               </Link>
               <Link href='/'>
-                <li className='py-3 text-sm'>resume</li>
+                <li className='py-3 text-sm hover:scale-105 ease-in duration-500'>resume</li>
               </Link>
               <Link href='/'>
-                <li className='py-3 text-sm'>contact</li>
+                <li className='py-3 text-sm hover:scale-105 ease-in duration-500'>contact</li>
               </Link>
             </ul>
 
