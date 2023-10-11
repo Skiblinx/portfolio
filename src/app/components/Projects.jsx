@@ -17,12 +17,12 @@ const Projects = () => {
             title='Portfolio Site'
             bgImage={portfolioImg}
             framework='Next Js'
-            projectUrl='/' />
+            projectUrl='/portfolio' />
           <ProjectItem
             title='Fitness App'
             bgImage={fitnessImg}
             framework='React Js'
-            projectUrl='/' />
+            projectUrl='/fitnessApp' />
 
         </div>
       </div>
