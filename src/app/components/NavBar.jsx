@@ -6,10 +6,28 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn, } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useState, useEffect } from 'react'
+import { useRouter, usePathname } from 'next/navigation'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)
+  const [navBg, setNavBg] = useState('#ecf0f3')
+  const [linkColor, setLinkColor] = useState('#1f2937')
   const [shadow, setShadow] = useState(false)
+  const router = useRouter()
+  const pathname = usePathname()
+
+  useEffect(() => {
+    if (
+      pathname === '/portfolio' ||
+      pathname === '/fitnessApp'
+    ) {
+      setLinkColor('#ecf0f3')
+      setNavBg('transparent')
+    } else {
+      setNavBg('#ecf0f3')
+      setLinkColor('#1f2937')
+    }
+  }, [pathname])
 
   useEffect(() => {
     const handleShadow = () => {
@@ -29,14 +47,14 @@ const NavBar = () => {
   }
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
 
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 '>
         <Link href='/'>
-          <Image src='/../assets/Blinxz.svg' alt='Blinxz logo' width='70' height='50' />
+          <Image src='/../assets/Blinx.png' alt='Blinxz logo' width='70' height='50' />
         </Link>
         <div>
-          <ul className='hidden md:flex'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <Link href='/'>
               <li className='ml-10 text-xs uppercase hover:border-b'>Home</li>
             </Link>
@@ -66,7 +84,7 @@ const NavBar = () => {
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ""}>
         <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:[45%] h-screen bg-[#ecf0f3] px-10 pt-5 ease-in duration-500' : 'fixed left-[-100%] top-0 px-10 pt-5 ease-in duration-500'}>
           <div className='flex items-center justify-between w-full'>
-            <Image src='/../assets/Blinxz.svg' alt='Blinxz logo' width='87' height='35' />
+            <Image src='/../assets/Blinx.png' alt='Blinxz logo' width='87' height='35' />
             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
               <AiOutlineClose />
             </div>
@@ -77,7 +95,7 @@ const NavBar = () => {
           <div className=''>
             <ul className='uppercase'>
 
-              <Link href='/'>
+              <Link href='/#'>
                 <li onClick={() => setNav(false)} className='py-3 text-sm hover:scale-105 ease-in duration-500'>Home</li>
               </Link>
               <Link href='/#about'>
