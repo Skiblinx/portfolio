@@ -14,7 +14,7 @@ const About = () => {
           <p className='underline py-2 text-gray-600 cursor-pointer'>Checkout some of my latest projects.</p>
         </div>
         <div className='w-full h-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image className='rounded-xl w-full h-full' src='/../assets/Blinxz.png' alt='Blinxz Profile' width={350} height={85} />
+          <Image className='rounded-xl w-full h-full' src='/../assets/IMG.jpg' alt='Blinxz Profile' width={350} height={85} />
         </div>
       </div>
     </div>
