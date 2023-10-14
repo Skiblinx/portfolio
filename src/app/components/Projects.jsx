@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import portfolioImg from '../../../public/assets/portfolioImg.png'
 import fitnessImg from '../../../public/assets/fitnessImg.png'
+import taleem from '../../../public/assets/taleem-admin.png'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
@@ -23,6 +24,11 @@ const Projects = () => {
             bgImage={fitnessImg}
             framework='React Js'
             projectUrl='/fitnessApp' />
+          <ProjectItem
+            title='Mkan Taleem-Admin Dashboard'
+            bgImage={taleem}
+            framework='Next Js'
+            projectUrl='/taleem-admin' />
 
         </div>
       </div>
