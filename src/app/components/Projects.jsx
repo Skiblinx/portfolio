@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import portfolioImg from '../../../public/assets/portfolioImg.png'
 import tailordom from '../../../public/assets/Tailordom.png'
-import quiickops from '../../../public/assets/Quiickops.png'
+import quiickops from '../../../public/assets/QuiickOps.png'
 import store from '../../../public/assets/store.png'
 import foodBag from '../../../public/assets/foodBag.png'
 import hikMind from '../../../public/assets/HikMind.png'
@@ -53,7 +53,7 @@ const Projects = () => {
             title='Portfolio Site'
             bgImage={portfolioImg}
             framework='Next Js'
-            projectUrl='/portfolio' />
+            projectUrl='https://blinxz.netlify.app/' />
 
         </div>
       </div>
