@@ -38,7 +38,12 @@ const Data = [
     title: "git",
     image: "/../assets/git.svg",
     id: 8
-  }
+  },
+  {
+    title: "TypeScript",
+    image: "/../assets/TS.svg",
+    id: 8
+  },
 ]
 
 export default Data
