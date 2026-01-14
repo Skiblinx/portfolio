@@ -38,7 +38,7 @@ const Projects = () => {
             bgImage={FlashChange}
             framework='ReactJs/TypeScript'
             description=' FlashChange is a platform for fast, secure crypto to fiat exchanges, supporting multiple cryptocurrencies with competitive rates and quick transactions'
-            projectUrl='https://flashchange.io/' />
+            projectUrl='https://www.flashchange.io/' />
           <ProjectItem
             title='Falz Store'
             bgImage={store}
