@@ -9,18 +9,16 @@ const About = () => {
         <div className='col-span-2 sm:w-[90%]'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
           <h2 className='py-4'>Who I am</h2>
-          <p className='py-2 text-gray-600'>I am not your normal developer</p>
-          <p className='py-2 text-gray-600'>I have spent the last 3 years in the building industry working as an interior decorator. I have always had a knack for technology and working with computers. In 2021, I started working with HTML and CSS to make some minor edits. What I thought was just a few small edits turned into a love for programming.</p>
+          <p className='py-2 text-gray-600'>I am a results-driven Front-End Developer with a unique perspective shaped by my studies in Economics. My transition into software engineering was fueled by a fascination with complex systems and the desire to build tools that solve real-world problems through code.</p>
           <p className='py-2 text-gray-600'>
-            Facinated by how intricate programming can be, I was quickly drawn to learn more. I started learning JavaScript and was even more enthused by making websites interactive. I began searching for opportunities to get significant experience soon after I graduated in January 2023 in an effort to become world-class, which eventually led me to volunteer at a non-profit organization. Now, I spend my time learning new technologies while developing applications with ReactJS and NextJs.
-
+            My background in Economics provides me with a rigorous analytical framework, allowing me to approach development with a focus on efficiency, optimization, and data-driven logic. Since 2021, I have immersed myself in the JavaScript ecosystem, specializing in React and Next.js to build high-performance applications. I am committed to writing clean, maintainable code and staying at the forefront of emerging technologies to deliver world-class digital solutions.
           </p>
           <Link href='#project'>
             <p className='underline py-2 text-gray-600 cursor-pointer'>Checkout some of my latest projects.</p>
           </Link>
         </div>
         <div className='w-full h-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image className='rounded-xl w-full h-full' src='/../assets/IMG.jpg' alt='Blinxz Profile' width={350} height={85} />
+          <Image className='rounded-xl w-full h-full' src='/assets/IMG1.jpg' alt='Blinxz Profile' width={350} height={85} />
         </div>
       </div>
     </div>
