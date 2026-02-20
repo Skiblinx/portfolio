@@ -11,7 +11,7 @@ const HeroMain = () => {
           <p className='uppercase tracking-widest text-gray-600'>let&apos;s build something together</p>
           <h1 className='py-3 text-gray-700'>Hi, I&apos;m <span className='text-[#5651e5]'>Adeleye</span></h1>
           <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
-          <p className='py-4 text-gray-600 max-w-[70%] m-auto'>Dedicated Front-End Developer with a background in Economics, focused on building efficient, scalable, and user-centric web applications. I combine analytical logic with modern engineering to create digital experiences that drive value and performance.</p>
+          <p className='py-4 text-gray-600 max-w-[70%] m-auto'>Dedicated Front-End Developer with a background in Economics, focused on building efficient, scalable, and user centric web applications. I combine analytical logic with modern engineering to create digital experiences that drive value and performance.</p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a href='https://www.linkedin.com/in/aabdulbasit/'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
