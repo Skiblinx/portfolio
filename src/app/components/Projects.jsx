@@ -8,6 +8,7 @@ import foodBag from '../../../public/assets/foodBag.png'
 import hikMind from '../../../public/assets/HikMind.png'
 import gtfinder from '../../../public/assets/gtfinder.png'
 import FlashChange from '../../../public/assets/flashChangee.png'
+import legalAssist from '../../../public/assets/legalAssist.png'
 // import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
@@ -39,6 +40,12 @@ const Projects = () => {
             framework='ReactJs/TypeScript'
             description=' FlashChange is a platform for fast, secure crypto to fiat exchanges, supporting multiple cryptocurrencies with competitive rates and quick transactions'
             projectUrl='https://www.flashchange.io/' />
+          <ProjectItem
+            title='LEGAL ASSIST'
+            bgImage={legalAssist}
+            framework='ReactJs/TypeScript'
+            description='comprehensive legal-tech platform connecting users with verified legal professionals, focusing on trust and high-stakes data integrity.'
+            projectUrl='https://legal-assist-connect.vercel.app/' />
           <ProjectItem
             title='Falz Store'
             bgImage={store}

@@ -9,9 +9,9 @@ const About = () => {
         <div className='col-span-2 sm:w-[90%]'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
           <h2 className='py-4'>Who I am</h2>
-          <p className='py-2 text-gray-600'>I am a results-driven Front-End Developer with a unique perspective shaped by my studies in Economics. My transition into software engineering was fueled by a fascination with complex systems and the desire to build tools that solve real-world problems through code.</p>
+          <p className='py-2 text-gray-600'>I am a results driven Frontend Developer with a unique perspective shaped by my studies in Economics. My transition into software engineering was fueled by a fascination with complex systems and the desire to build tools that solve real world problems through code.</p>
           <p className='py-2 text-gray-600'>
-            My background in Economics provides me with a rigorous analytical framework, allowing me to approach development with a focus on efficiency, optimization, and data-driven logic. Since 2021, I have immersed myself in the JavaScript ecosystem, specializing in React and Next.js to build high-performance applications. I am committed to writing clean, maintainable code and staying at the forefront of emerging technologies to deliver world-class digital solutions.
+            My background in Economics provides me with a rigorous analytical framework, allowing me to approach development with a focus on efficiency, optimization, and data driven logic. Since 2021, I have immersed myself in the JavaScript ecosystem, specializing in React and Next.js to build high-performance applications. I am committed to writing clean, maintainable code and staying at the forefront of emerging technologies to deliver world class digital solutions.
           </p>
           <Link href='#project'>
             <p className='underline py-2 text-gray-600 cursor-pointer'>Checkout some of my latest projects.</p>
