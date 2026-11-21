@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sblinx: Frontend & Mobile Engineer · React, React Native · Fintech</title>
+  <meta name="description" content="Sblinx is a frontend & mobile engineer (React, Next.js, React Native, TypeScript) building fast, reliable fintech and payments apps for web, iOS and Android. Based in Abuja, open to remote & relocation." />
+  <meta name="theme-color" content="#0C1826" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="author" content="Adeleye Abdulbasit (Sblinx)" />
+
+  <!-- Open Graph / Twitter: add og:url and make og:image an absolute URL once the domain is live -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sblinx: Frontend & Mobile Engineer · Fintech & Payments" />
+  <meta property="og:description" content="Interfaces people trust with their money. React, Next.js, React Native and TypeScript, shipped to the web, the App Store and Google Play." />
+  <meta property="og:image" content="assets/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sblinx: Frontend & Mobile Engineer · Fintech & Payments" />
+  <meta name="twitter:description" content="Interfaces people trust with their money. React, Next.js, React Native, TypeScript." />
+  <meta name="twitter:image" content="assets/img/og-image.jpg" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/posters/scene1.webp" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Adeleye Abdulbasit",
+    "alternateName": "Sblinx",
+    "jobTitle": "Frontend & Mobile Engineer",
+    "description": "Frontend and React Native engineer building fintech and payments products.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Abuja", "addressCountry": "NG" },
+    "knowsAbout": ["React", "Next.js", "React Native", "TypeScript", "JavaScript", "Fintech", "Payments", "iOS", "Android"],
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Federal University Dutsin-Ma" },
+    "sameAs": ["https://www.linkedin.com/in/aabdulbasit/", "https://github.com/Skiblinx"]
+  }
+  </script>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-whatsapp="2349085257457" data-linkedin="https://www.linkedin.com/in/aabdulbasit/">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__mark mono">{ — sblinx</span>
+      <span class="loader__count"><span data-loader-count>000</span></span>
+    </div>
+    <div class="loader__bar"><span></span></div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><em class="cursor__label"></em></span></div>
+
+  <!-- Nav -->
+  <header class="nav" data-nav>
+    <a class="nav__brand" href="#top" aria-label="Sblinx, back to top">
+      <span class="nav__bracket">{</span>sblinx<span class="nav__dot">.</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#story">Story</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="assets/Sblinx-CV-Frontend.pdf" download>CV ↓</a>
+    </nav>
+    <a class="btn btn--primary btn--sm" data-cta="whatsapp" data-magnetic href="#contact" target="_blank" rel="noopener" data-cursor="Talk">
+      <span>Let's talk</span><i class="btn__arrow" aria-hidden="true">↗</i>
+    </a>
+  </header>
+
+  <main id="main">
+    <!-- 02 HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="pin">
+        <div class="scene" data-scene="scene1" aria-hidden="true">
+          <img class="scene__poster" src="assets/posters/scene1.webp" alt="" width="1280" height="720" fetchpriority="high" />
+          <canvas class="scene__canvas"></canvas>
+          <video class="scene__video" muted playsinline loop preload="metadata"
+            poster="assets/posters/scene1.webp"
+            data-src-desktop="assets/video/scene1.mp4"
+            data-src-mobile="assets/video/scene1-mobile.mp4"
+            data-poster-desktop="assets/posters/scene1.webp"
+            data-poster-mobile="assets/posters/scene1-mobile.webp"></video>
+          <div class="scene__shade"></div>
+        </div>
+        <svg class="constellation" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+          <g stroke="currentColor" stroke-width="1" fill="none">
+            <path d="M-20 820 L520 260 L980 520 L1460 80" /><path d="M120 -20 L640 640 L1180 300" />
+            <path d="M700 920 L1040 420 L1460 620" /><path d="M-20 360 L380 120 L860 90" />
+          </g>
+          <g fill="currentColor"><circle cx="520" cy="260" r="2"/><circle cx="980" cy="520" r="2"/><circle cx="640" cy="640" r="2"/><circle cx="1180" cy="300" r="2"/><circle cx="1040" cy="420" r="2"/><circle cx="380" cy="120" r="2"/></g>
+        </svg>
+
+        <div class="hero__content wrap">
+          <p class="chip chip--status hero__chip" data-reveal><i class="pulse" aria-hidden="true"></i> Open to full-time roles: remote &amp; relocation</p>
+          <p class="eyebrow" data-reveal><span class="eyebrow__b">{ —</span> Frontend &amp; Mobile Engineer · React · React Native · Fintech</p>
+          <h1 class="hero__title display" id="hero-title" data-split>
+            <span class="l">Interfaces people</span>
+            <span class="l">trust with their</span>
+            <span class="l"><em class="accent">money.</em></span>
+          </h1>
+          <div class="hero__bottom">
+            <p class="hero__sub" data-reveal>I'm Sblinx, an economist turned engineer building fast, reliable web and mobile apps with React, Next.js, React Native and TypeScript, shipped to the browser, the App Store and Google Play. Based in Abuja · open to remote &amp; relocation.</p>
+            <div class="hero__ctas" data-reveal>
+              <a class="btn btn--primary" data-cta="whatsapp" data-magnetic href="#contact" target="_blank" rel="noopener" data-cursor="Talk"><span>Let's talk</span><i class="btn__arrow" aria-hidden="true">↗</i></a>
+              <div class="split-btn" role="group" aria-label="Download CV">
+                <span class="split-btn__label">CV ↓</span>
+                <a href="assets/Sblinx-CV-Frontend.pdf" download>Web</a>
+                <a href="assets/Sblinx-CV-Mobile.pdf" download>Mobile</a>
+              </div>
+              <a class="icon-link" data-cta="linkedin" href="https://www.linkedin.com/in/aabdulbasit/" target="_blank" rel="noopener" aria-label="LinkedIn profile">in</a>
+            </div>
+          </div>
+        </div>
+
+        <pre class="hero__diff mono" aria-hidden="true"><span class="c">// status</span>
+<span class="m">- what's broken</span>
+<span class="p">+ what works, and scales</span></pre>
+        <div class="scroll-cue" aria-hidden="true"><span class="mono">Scroll</span><i></i></div>
+      </div>
+    </section>
+
+    <!-- 03 STATS -->
+    <section class="stats" aria-label="Key numbers">
+      <div class="wrap">
+        <ul class="stats__grid">
+          <li class="stat"><span class="stat__num"><span data-count="4">0</span>+</span><span class="stat__label">Years shipping production React, Next.js &amp; React Native apps</span><i class="stat__line"></i></li>
+          <li class="stat"><span class="stat__num"><span data-count="5000" data-format="comma">0</span>+</span><span class="stat__label">Members using platforms I built and maintain</span><i class="stat__line"></i></li>
+          <li class="stat"><span class="stat__num"><span data-count="30">0</span>%</span><span class="stat__label">Faster data loading on a commercial bank's platform</span><i class="stat__line"></i></li>
+          <li class="stat"><span class="stat__num"><span data-count="25">0</span>%</span><span class="stat__label">Less build time per feature via a shared component library</span><i class="stat__line"></i></li>
+        </ul>
+        <p class="stats__foot mono">Shipped to App Store &amp; Google Play · B.Sc. Economics · 3.89 / 5.0 CGPA</p>
+      </div>
+    </section>
+
+    <!-- 04 MISSION -->
+    <section class="mission" aria-labelledby="mission-title">
+      <div class="wrap">
+        <p class="index mono">// 01 — mission</p>
+        <h2 class="mission__text" id="mission-title" data-words>Financial products should feel effortless. I build the interfaces that make that true: clear enough to understand, fast enough to forget, reliable enough to <em class="accent serif">trust.</em></h2>
+        <div class="diff mono" data-reveal>
+          <span class="diff__m">- a balance nobody can explain</span>
+          <span class="diff__p">+ software people simply trust</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 PILLARS -->
+    <section class="pillars" aria-labelledby="pillars-title">
+      <div class="pillars__pin">
+        <div class="pillars__head wrap">
+          <p class="index mono">// 02 — what I bring</p>
+          <h2 class="h2" id="pillars-title" data-split><span class="l">Three things I do</span><span class="l">exceptionally <em class="accent serif">well.</em></span></h2>
+        </div>
+        <div class="pillars__track">
+          <article class="pillar" data-glow>
+            <span class="pillar__num" aria-hidden="true">01</span>
+            <h3 class="pillar__title">Fintech &amp; Payments Interfaces</h3>
+            <p>Banking apps, payments oversight, transaction monitoring, payouts, refunds and disputes, built with the care money demands: token handling, session timeouts, secure storage, and no transfer state nobody can explain.</p>
+            <ul class="tags"><li>Banking</li><li>Payments oversight</li><li>KYC onboarding</li><li>Client-side security</li></ul>
+            <div class="diff mono"><span class="diff__m">- a transfer state nobody can explain</span><span class="diff__p">+ every state designed</span></div>
+          </article>
+          <article class="pillar" data-glow>
+            <span class="pillar__num" aria-hidden="true">02</span>
+            <h3 class="pillar__title">Mobile &amp; Web Product Engineering</h3>
+            <p>One codebase to iOS and Android, shipped through App Store and Google Play releases, next to the web platform and admin console of the same product. Biometric auth, secure token storage, certificate handling and platform-specific behaviour are handled, not hand-waved.</p>
+            <ul class="tags"><li>React Native</li><li>iOS &amp; Android</li><li>Store releases</li><li>Next.js</li><li>TypeScript</li></ul>
+            <div class="diff mono"><span class="diff__m">- three apps, three truths</span><span class="diff__p">+ one product, every surface</span></div>
+          </article>
+          <article class="pillar" data-glow>
+            <span class="pillar__num" aria-hidden="true">03</span>
+            <h3 class="pillar__title">Frontend Architecture &amp; Performance</h3>
+            <p>I own a frontend codebase end to end: architecture, conventions, shared component libraries, testing and Core Web Vitals. I ship features <em>and</em> the foundations that make the next ones faster.</p>
+            <ul class="tags"><li>Component libraries</li><li>Code splitting</li><li>Jest / RTL</li><li>Core Web Vitals</li></ul>
+            <div class="diff mono"><span class="diff__m">- slow loads, slow shipping</span><span class="diff__p">+ 30% faster, 25% quicker to build</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 STORY -->
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="pin">
+        <div class="scene" data-scene="scene2" aria-hidden="true">
+          <img class="scene__poster" src="assets/posters/scene2.webp" alt="" width="1280" height="720" loading="lazy" />
+          <canvas class="scene__canvas"></canvas>
+          <video class="scene__video" muted playsinline loop preload="metadata"
+            poster="assets/posters/scene2.webp"
+            data-src-desktop="assets/video/scene2.mp4"
+            data-src-mobile="assets/video/scene2-mobile.mp4"
+            data-poster-desktop="assets/posters/scene2.webp"
+            data-poster-mobile="assets/posters/scene2-mobile.webp"></video>
+          <div class="scene__shade scene__shade--story"></div>
+        </div>
+        <div class="story__inner wrap">
+          <p class="index mono">// 03 — the story</p>
+          <h2 class="visually-hidden" id="story-title">The story: economist, engineer, fintech product builder</h2>
+          <ol class="story__rail mono" aria-hidden="true"><li>I</li><li>II</li><li>III</li><i class="story__fill"></i></ol>
+          <div class="acts">
+            <article class="act">
+              <p class="act__label mono">Act I · The Economist</p>
+              <p class="act__text">I started by studying how money moves and why people decide. B.Sc. Economics, 3.89/5.0 CGPA. I learned to see systems, incentives and trade-offs before I wrote a line of code.</p>
+            </article>
+            <article class="act">
+              <p class="act__label mono">Act II · The Engineer</p>
+              <p class="act__text">Then I wanted to build the systems, not just model them. Four years of React, Next.js, TypeScript and React Native: a drag-and-drop builder that compiles to real code, an AI-powered HR suite, and a React Native banking app shipped to iOS and Android with its web and core-banking platforms.</p>
+            </article>
+            <article class="act">
+              <p class="act__label mono">Act III · The Fintech Product Builder</p>
+              <p class="act__text">Today I build the payments and operations console for a two-sided marketplace at OrgByte. I built the crypto-to-fiat trading frontend for Flashchange, and I maintain web and mobile platforms serving 5,000+ members at MKAN. I think in products, money and users, not just code.</p>
+            </article>
+            <p class="act act--final display">I don't just write the code. I understand the <em class="accent">money</em> moving through it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 WORK -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <p class="index mono">// 04 — selected work</p>
+        <h2 class="h2 work__title" id="work-title" data-split><span class="l">Shipped. In production.</span><span class="l">With real <em class="accent serif">money</em> on the line.</span></h2>
+      </div>
+
+      <div class="cases wrap">
+        <!-- 01 Taskdog -->
+        <article class="case" data-glow data-cursor="Case">
+          <div class="case__body">
+            <div class="case__meta mono"><span>01</span><span>OrgByte · Frontend Engineer</span><span>Feb 2026 – Present</span></div>
+            <h3 class="case__title">Taskdog Admin &amp; Payments Oversight</h3>
+            <p class="case__problem">A two-sided services marketplace (customer + vendor apps) ran its operations through scattered manual processes.</p>
+            <ul class="case__list">
+              <li>Built the admin platform the ops team works from, covering both the customer and vendor sides.</li>
+              <li>Payments oversight: transaction monitoring, vendor payouts, refunds and dispute resolution.</li>
+              <li>Booking management, vendor admin and an internal support console.</li>
+            </ul>
+            <ul class="tags"><li>React</li><li>Next.js</li><li>TypeScript</li><li>REST</li></ul>
+            <p class="case__impact"><span class="mono">+</span> One console replacing scattered manual processes for both sides of the marketplace.</p>
+          </div>
+          <div class="case__visual" aria-hidden="true">
+            <div class="mock mock--admin">
+              <div class="mock__bar"><i></i><i></i><i></i></div>
+              <div class="mock__side"><b></b><b></b><b class="on"></b><b></b><b></b></div>
+              <div class="mock__main">
+                <div class="kpis"><div><small></small><strong>₦</strong></div><div><small></small><strong></strong></div><div><small></small><strong></strong></div></div>
+                <div class="rows">
+                  <div class="row"><span></span><span></span><em class="ok">Paid out</em></div>
+                  <div class="row"><span></span><span></span><em class="pend">Pending</em></div>
+                  <div class="row"><span></span><span></span><em class="bad">Disputed</em></div>
+                  <div class="row"><span></span><span></span><em class="ok">Refunded</em></div>
+                  <div class="row"><span></span><span></span><em class="ok">Paid out</em></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 MKAN -->
+        <article class="case" data-glow data-cursor="Case">
+          <div class="case__body">
+            <div class="case__meta mono"><span>02</span><span>MKAN Nigeria · Frontend Engineer (Volunteer)</span><span>2022 – Present</span></div>
+            <h3 class="case__title">Maalify &amp; Majalis 365</h3>
+            <p class="case__problem">A national membership organisation needed member self-service, contributions and office operations in one place.</p>
+            <ul class="case__list">
+              <li><strong>Maalify:</strong> web + React Native self-service with profiles, recurring contribution payments and financial statements.</li>
+              <li><strong>Majalis 365:</strong> finance &amp; collections, member wallets, records across jurisdictions, education modules.</li>
+              <li>Role-scoped access with single-session sign-in across modules.</li>
+            </ul>
+            <ul class="tags"><li>React</li><li>Next.js</li><li>React Native</li><li>TypeScript</li></ul>
+            <p class="case__impact"><span class="mono">+</span> 5,000+ members in production, on web and mobile.</p>
+          </div>
+          <div class="case__visual" aria-hidden="true">
+            <div class="mock mock--phone">
+              <div class="phone">
+                <div class="phone__notch"></div>
+                <div class="phone__hello"><i></i><b></b></div>
+                <div class="phone__card"><small></small><strong></strong><span class="phone__chip">Monthly</span></div>
+                <div class="phone__list"><p><i></i><span></span><em></em></p><p><i></i><span></span><em></em></p><p><i></i><span></span><em></em></p></div>
+                <div class="phone__btn"></div>
+              </div>
+              <div class="phone phone--back"><div class="phone__notch"></div><div class="phone__graph"><i style="--h:40%"></i><i style="--h:65%"></i><i style="--h:50%"></i><i style="--h:85%"></i><i style="--h:70%"></i><i style="--h:95%"></i></div></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 Banking -->
+        <article class="case" data-glow data-cursor="Case">
+          <div class="case__body">
+            <div class="case__meta mono"><span>03</span><span>Tech Services Limited · Frontend Engineer</span><span>Feb 2025 – Dec 2025</span></div>
+            <h3 class="case__title">Digital Banking Platforms</h3>
+            <p class="case__problem">A Nigerian commercial bank needed customer, agent and back-office experiences that never disagree about a balance.</p>
+            <ul class="case__list">
+              <li>The customer React Native app, one codebase released to the App Store and Google Play.</li>
+              <li>The web platform and the core-banking / admin console: all three surfaces of one product.</li>
+              <li>Mobile security: secure token storage, session timeout, biometric auth, certificate handling.</li>
+            </ul>
+            <ul class="tags"><li>React Native</li><li>React</li><li>TypeScript</li><li>iOS &amp; Android</li></ul>
+            <p class="case__impact"><span class="mono">+</span> 30% faster data loading; a shared component library cut feature build time by 25%.</p>
+          </div>
+          <div class="case__visual" aria-hidden="true">
+            <div class="mock mock--bank">
+              <div class="desk"><div class="mock__bar"><i></i><i></i><i></i></div><div class="desk__body"><div class="desk__chart"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><path d="M0 50 C30 45 40 20 70 28 S120 10 140 18 180 5 200 8" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="rows"><div class="row"><span></span><span></span><em class="ok">Success</em></div><div class="row"><span></span><span></span><em class="pend">Processing</em></div><div class="row"><span></span><span></span><em class="ok">Success</em></div></div></div></div>
+              <div class="phone phone--front"><div class="phone__notch"></div><div class="phone__card"><small></small><strong></strong></div><div class="phone__face"><svg viewBox="0 0 40 40"><path d="M8 14V9a1 1 0 0 1 1-1h5M26 8h5a1 1 0 0 1 1 1v5M32 26v5a1 1 0 0 1-1 1h-5M14 32H9a1 1 0 0 1-1-1v-5M15 17v2M25 17v2M20 18v5h-2M16 27c2 1.5 6 1.5 8 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div><div class="phone__btn"></div></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 Flashchange -->
+        <article class="case" data-glow data-cursor="Case">
+          <div class="case__body">
+            <div class="case__meta mono"><span>04</span><span>Flashchange · Frontend Engineer</span><span>Crypto-to-fiat</span></div>
+            <h3 class="case__title">Crypto-to-Fiat Exchange</h3>
+            <p class="case__problem">People swapping crypto for cash need to know where their money is at every second.</p>
+            <ul class="case__list">
+              <li>Trading and KYC onboarding frontend.</li>
+              <li>Multi-currency swaps with live rates.</li>
+              <li>Idempotent submissions and honest pending states, so a user is never unsure whether their money moved.</li>
+            </ul>
+            <ul class="tags"><li>React</li><li>TypeScript</li><li>KYC</li><li>Live rates</li></ul>
+            <p class="case__impact"><span class="mono">+</span> No ambiguous transaction states.</p>
+          </div>
+          <div class="case__visual" aria-hidden="true">
+            <div class="mock mock--swap">
+              <div class="swap">
+                <div class="swap__field"><small>You send</small><strong>0.25</strong><span class="swap__cur">USDT</span></div>
+                <div class="swap__switch">⇅</div>
+                <div class="swap__field"><small>You receive</small><strong data-rate>₦ 412,800</strong><span class="swap__cur">NGN</span></div>
+                <div class="swap__rate mono"><i class="pulse"></i> live rate</div>
+                <ol class="swap__steps mono"><li class="done">Submitted</li><li class="done">Confirmed</li><li class="now">Paying out</li></ol>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 Tailordom -->
+        <article class="case" data-glow data-cursor="Case">
+          <div class="case__body">
+            <div class="case__meta mono"><span>05</span><span>Tailordom · Frontend Engineer</span><span>Oct 2023 – Jan 2026</span></div>
+            <h3 class="case__title">AI-assisted Website Builder</h3>
+            <p class="case__problem">Users wanted to design visually but leave with real, production-ready code.</p>
+            <ul class="case__list">
+              <li>A custom drag-and-drop editor in vanilla JS that compiles to React, HTML and Tailwind CSS.</li>
+              <li>AI generation of page sections from a prompt.</li>
+              <li>Admin dashboard and an in-app help desk.</li>
+            </ul>
+            <ul class="tags"><li>Vanilla JS</li><li>React</li><li>Tailwind CSS</li><li>AI</li></ul>
+            <p class="case__impact"><span class="mono">+</span> One design, exported as working code in whichever stack the user needs.</p>
+          </div>
+          <div class="case__visual" aria-hidden="true">
+            <div class="mock mock--builder">
+              <div class="mock__bar"><i></i><i></i><i></i></div>
+              <div class="builder">
+                <div class="builder__blocks"><b></b><b></b><b></b><b></b></div>
+                <div class="builder__canvas"><div class="bc bc--hero"></div><div class="bc bc--row"><i></i><i></i><i></i></div><div class="bc bc--drag"></div></div>
+                <div class="builder__out mono"><span class="on">React</span><span>HTML</span><span>Tailwind</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="wrap also mono"><span>Also shipped</span> QuiickOps: the frontend of an AI-powered HR suite (leave, recruitment, onboarding, performance analytics) · Dec 2023 – Nov 2025</p>
+    </section>
+
+    <!-- 08 TOOLKIT -->
+    <section class="toolkit" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="wrap">
+        <p class="index mono">// 05 — toolkit</p>
+        <h2 class="visually-hidden" id="toolkit-title">Toolkit and how I work</h2>
+      </div>
+      <div class="marquee" aria-label="Technologies I use">
+        <div class="marquee__row" data-dir="1"><div class="marquee__inner">
+          <span>React Native</span><span>iOS</span><span>Android</span><span>TypeScript</span><span>JavaScript (ES6+)</span><span>React</span><span>Next.js</span><span>Node.js</span><span>Tailwind CSS</span><span>CSS Modules</span>
+        </div></div>
+        <div class="marquee__row marquee__row--alt" data-dir="-1"><div class="marquee__inner">
+          <span>Redux Toolkit</span><span>Zustand</span><span>REST</span><span>GraphQL</span><span>Axios</span><span>Jest</span><span>React Testing Library</span><span>Core Web Vitals</span><span>Git / GitHub</span><span>Figma</span>
+        </div></div>
+      </div>
+      <div class="wrap principles">
+        <h3 class="h3">How I work</h3>
+        <ol class="principles__list">
+          <li data-reveal><span class="mono">01</span><div><strong>Understand the money first.</strong> Every flow starts with who pays, who's paid, and what can go wrong.</div></li>
+          <li data-reveal><span class="mono">02</span><div><strong>Own the codebase, not just the ticket.</strong> Architecture, conventions, tests and performance.</div></li>
+          <li data-reveal><span class="mono">03</span><div><strong>Honest states.</strong> Idempotent submissions, honest pending states, failures that explain themselves.</div></li>
+          <li data-reveal><span class="mono">04</span><div><strong>Polish is a feature.</strong> Speed, clarity and motion are how users judge trust.</div></li>
+        </ol>
+        <div class="elsewhere">
+          <a class="ext" href="https://github.com/Skiblinx" target="_blank" rel="noopener" data-glow><span class="mono">github</span><strong>Skiblinx</strong><i aria-hidden="true">↗</i></a>
+          <a class="ext" data-cta="linkedin" href="https://www.linkedin.com/in/aabdulbasit/" target="_blank" rel="noopener" data-glow><span class="mono">linkedin</span><strong>aabdulbasit</strong><i aria-hidden="true">↗</i></a>
+          <a class="ext" href="https://blinxz.netlify.app" target="_blank" rel="noopener" data-glow><span class="mono">previous portfolio</span><strong>blinxz.netlify.app</strong><i aria-hidden="true">↗</i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 FINAL CTA -->
+    <section class="cta" id="contact" aria-labelledby="cta-title">
+      <div class="pin">
+        <div class="scene" data-scene="scene3" aria-hidden="true">
+          <img class="scene__poster" src="assets/posters/scene3.webp" alt="" width="1280" height="720" loading="lazy" />
+          <canvas class="scene__canvas"></canvas>
+          <video class="scene__video" muted playsinline loop preload="metadata"
+            poster="assets/posters/scene3.webp"
+            data-src-desktop="assets/video/scene3.mp4"
+            data-src-mobile="assets/video/scene3-mobile.mp4"
+            data-poster-desktop="assets/posters/scene3.webp"
+            data-poster-mobile="assets/posters/scene3-mobile.webp"></video>
+          <div class="scene__shade scene__shade--cta"></div>
+        </div>
+        <div class="cta__inner wrap">
+          <p class="eyebrow"><span class="eyebrow__b">{ —</span> next release</p>
+          <h2 class="cta__title display" id="cta-title" data-split><span class="l">Let's build</span><span class="l">what's <em class="accent">next.</em></span></h2>
+          <p class="cta__sub">Hiring for frontend or mobile (React / React Native), especially in fintech, payments or product? I reply fast.</p>
+          <a class="btn btn--primary btn--xl" data-cta="whatsapp" data-magnetic href="#contact" target="_blank" rel="noopener" data-cursor="Talk"><span>Let's talk on WhatsApp</span><i class="btn__arrow" aria-hidden="true">↗</i></a>
+          <ul class="cta__row mono">
+            <li><a href="assets/Sblinx-CV-Frontend.pdf" download>CV: Web ↓</a></li>
+            <li><a href="assets/Sblinx-CV-Mobile.pdf" download>CV: Mobile ↓</a></li>
+            <li><a data-cta="linkedin" href="https://www.linkedin.com/in/aabdulbasit/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+            <li>Abuja, Nigeria · GMT+1 · Remote / Relocation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 10 FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div><p class="mono footer__h">Navigate</p><a href="#work">Work</a><a href="#story">Story</a><a href="#toolkit">Toolkit</a></div>
+      <div><p class="mono footer__h">Connect</p><a data-cta="whatsapp" href="#contact" target="_blank" rel="noopener">WhatsApp</a><a data-cta="linkedin" href="https://www.linkedin.com/in/aabdulbasit/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/Skiblinx" target="_blank" rel="noopener">GitHub</a><a href="mailto:adeleyeabdulbasitdamilola@gmail.com">Email</a></div>
+      <div><p class="mono footer__h">Status</p><p class="mono footer__status"><span class="c">// building fintech interfaces</span><br />Abuja · <span data-clock>--:--</span> WAT</p><a href="#top" class="mono">Back to top ↑</a></div>
+    </div>
+    <div class="footer__word" aria-hidden="true"><span data-fill>SBLINX</span></div>
+    <p class="wrap footer__copy mono">© 2026 Sblinx · Adeleye Abdulbasit · Designed &amp; engineered in Abuja</p>
+  </footer>
+
+  <a class="sticky-cta" data-cta="whatsapp" href="#contact" target="_blank" rel="noopener"><i class="pulse" aria-hidden="true"></i> Let's talk</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
